@@ -1,0 +1,98 @@
+2025/09/05-05:06:17.091 fc16 Creating DB /home/anti/.config/microsoft-edge/Default/Local Extension Settings/kiiaghlmeikbpmeabhilfphikfcefljn since it was missing.
+2025/09/05-05:06:17.094 fc16 Reusing MANIFEST /home/anti/.config/microsoft-edge/Default/Local Extension Settings/kiiaghlmeikbpmeabhilfphikfcefljn/MANIFEST-000001
+2025/09/05-06:07:20.584 fc18 Level-0 table #5: started
+2025/09/05-06:07:20.597 fc18 Level-0 table #5: 4111003 bytes OK
+2025/09/05-06:07:20.600 fc18 Delete type=0 #3
+2025/09/05-08:50:50.818 fc17 Level-0 table #7: started
+2025/09/05-08:50:50.836 fc17 Level-0 table #7: 5733134 bytes OK
+2025/09/05-08:50:50.838 fc17 Delete type=0 #4
+2025/09/05-11:32:21.032 fc17 Level-0 table #9: started
+2025/09/05-11:32:21.048 fc17 Level-0 table #9: 5733303 bytes OK
+2025/09/05-11:32:21.050 fc17 Delete type=0 #6
+2025/09/05-14:29:51.230 fc17 Level-0 table #11: started
+2025/09/05-14:29:51.242 fc17 Level-0 table #11: 3939155 bytes OK
+2025/09/05-14:29:51.245 fc17 Delete type=0 #8
+2025/09/05-16:20:51.447 fc17 Level-0 table #13: started
+2025/09/05-16:20:51.466 fc17 Level-0 table #13: 5738020 bytes OK
+2025/09/05-16:20:51.469 fc17 Delete type=0 #10
+2025/09/05-19:01:21.664 fc17 Level-0 table #15: started
+2025/09/05-19:01:21.683 fc17 Level-0 table #15: 5756454 bytes OK
+2025/09/05-19:01:21.685 fc17 Delete type=0 #12
+2025/09/05-19:01:21.687 fc17 Compacting 4@0 + 1@1 files
+2025/09/05-19:01:21.708 fc17 Generated table #16@0: 16 keys, 1905054 bytes
+2025/09/05-19:01:21.708 fc17 Compacted 4@0 + 1@1 files => 1905054 bytes
+2025/09/05-19:01:21.709 fc17 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/05-19:01:21.710 fc17 Delete type=2 #7
+2025/09/05-19:01:21.710 fc17 Delete type=2 #9
+2025/09/05-19:01:21.710 fc17 Delete type=2 #11
+2025/09/05-19:01:21.710 fc17 Delete type=2 #13
+2025/09/05-19:01:21.710 fc17 Delete type=2 #15
+2025/09/05-22:12:51.850 fc18 Level-0 table #18: started
+2025/09/05-22:12:51.865 fc18 Level-0 table #18: 3939655 bytes OK
+2025/09/05-22:12:51.868 fc18 Delete type=0 #14
+2025/09/05-23:24:22.023 fc17 Level-0 table #20: started
+2025/09/05-23:24:22.038 fc17 Level-0 table #20: 5646765 bytes OK
+2025/09/05-23:24:22.040 fc17 Delete type=0 #17
+2025/09/06-01:20:22.189 fc17 Level-0 table #22: started
+2025/09/06-01:20:22.204 fc17 Level-0 table #22: 5710957 bytes OK
+2025/09/06-01:20:22.206 fc17 Delete type=0 #19
+2025/09/06-04:37:52.474 fc17 Level-0 table #24: started
+2025/09/06-04:37:52.494 fc17 Level-0 table #24: 5756488 bytes OK
+2025/09/06-04:37:52.496 fc17 Delete type=0 #21
+2025/09/06-04:37:52.497 fc17 Compacting 4@0 + 1@1 files
+2025/09/06-04:37:52.516 fc17 Generated table #25@0: 16 keys, 1905036 bytes
+2025/09/06-04:37:52.517 fc17 Compacted 4@0 + 1@1 files => 1905036 bytes
+2025/09/06-04:37:52.518 fc17 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/06-04:37:52.518 fc17 Delete type=2 #16
+2025/09/06-04:37:52.518 fc17 Delete type=2 #18
+2025/09/06-04:37:52.518 fc17 Delete type=2 #20
+2025/09/06-04:37:52.518 fc17 Delete type=2 #22
+2025/09/06-04:37:52.518 fc17 Delete type=2 #24
+2025/09/06-06:38:52.669 fc17 Level-0 table #27: started
+2025/09/06-06:38:52.685 fc17 Level-0 table #27: 5733524 bytes OK
+2025/09/06-06:38:52.687 fc17 Delete type=0 #23
+2025/09/06-09:55:22.944 fc17 Level-0 table #29: started
+2025/09/06-09:55:22.962 fc17 Level-0 table #29: 5756323 bytes OK
+2025/09/06-09:55:22.964 fc17 Delete type=0 #26
+2025/09/06-13:04:53.156 fc19 Level-0 table #31: started
+2025/09/06-13:04:53.171 fc19 Level-0 table #31: 3939394 bytes OK
+2025/09/06-13:04:53.173 fc19 Delete type=0 #28
+2025/09/06-15:25:53.433 fc17 Level-0 table #33: started
+2025/09/06-15:25:53.448 fc17 Level-0 table #33: 5692189 bytes OK
+2025/09/06-15:25:53.450 fc17 Delete type=0 #30
+2025/09/06-15:25:53.451 fc17 Compacting 4@0 + 1@1 files
+2025/09/06-15:25:53.468 fc17 Generated table #34@0: 16 keys, 1905049 bytes
+2025/09/06-15:25:53.468 fc17 Compacted 4@0 + 1@1 files => 1905049 bytes
+2025/09/06-15:25:53.469 fc17 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/06-15:25:53.469 fc17 Delete type=2 #25
+2025/09/06-15:25:53.469 fc17 Delete type=2 #27
+2025/09/06-15:25:53.469 fc17 Delete type=2 #29
+2025/09/06-15:25:53.469 fc17 Delete type=2 #31
+2025/09/06-15:25:53.469 fc17 Delete type=2 #33
+2025/09/06-18:21:23.680 fc17 Level-0 table #36: started
+2025/09/06-18:21:23.696 fc17 Level-0 table #36: 5756296 bytes OK
+2025/09/06-18:21:23.698 fc17 Delete type=0 #32
+2025/09/06-21:00:53.912 fc16 Level-0 table #38: started
+2025/09/06-21:00:53.927 fc16 Level-0 table #38: 5710901 bytes OK
+2025/09/06-21:00:53.929 fc16 Delete type=0 #35
+2025/09/06-23:50:24.146 fc17 Level-0 table #40: started
+2025/09/06-23:50:24.162 fc17 Level-0 table #40: 5756267 bytes OK
+2025/09/06-23:50:24.165 fc17 Delete type=0 #37
+2025/09/07-01:41:24.275 fc17 Level-0 table #42: started
+2025/09/07-01:41:24.292 fc17 Level-0 table #42: 5688098 bytes OK
+2025/09/07-01:41:24.295 fc17 Delete type=0 #39
+2025/09/07-01:41:24.296 fc17 Compacting 4@0 + 1@1 files
+2025/09/07-01:41:24.317 fc17 Generated table #43@0: 16 keys, 1905020 bytes
+2025/09/07-01:41:24.317 fc17 Compacted 4@0 + 1@1 files => 1905020 bytes
+2025/09/07-01:41:24.318 fc17 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/07-01:41:24.319 fc17 Delete type=2 #34
+2025/09/07-01:41:24.319 fc17 Delete type=2 #36
+2025/09/07-01:41:24.319 fc17 Delete type=2 #38
+2025/09/07-01:41:24.319 fc17 Delete type=2 #40
+2025/09/07-01:41:24.319 fc17 Delete type=2 #42
+2025/09/07-04:30:54.505 fc16 Level-0 table #45: started
+2025/09/07-04:30:54.521 fc16 Level-0 table #45: 5733677 bytes OK
+2025/09/07-04:30:54.523 fc16 Delete type=0 #41
+2025/09/07-08:06:24.752 fc17 Level-0 table #47: started
+2025/09/07-08:06:24.766 fc17 Level-0 table #47: 3939373 bytes OK
+2025/09/07-08:06:24.769 fc17 Delete type=0 #44

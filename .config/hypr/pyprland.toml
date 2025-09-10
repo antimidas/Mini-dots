@@ -1,0 +1,23 @@
+[pyprland]
+
+plugins = [
+  "scratchpads",
+  "magnify",
+  "expose",
+  "toggle_special"
+]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty -o include='~/.config/kitty/kitty-themes/Glacier.conf' --class drp"
+class = "drp"
+size = "75% 60%"
+
+
+[scratchpads.ranger]
+animation = "fromBottom"
+command = "ghostty --class=com.ghostty.ranger -e ranger"
+match_by = "class"
+class = "terminology"
+size = "75% 60%"
+

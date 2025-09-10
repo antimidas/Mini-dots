@@ -1,0 +1,22 @@
+[pyprland]
+
+plugins = [
+  "scratchpads",
+  "magnify",
+  "expose",
+  "toggle_special"
+]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class drp"
+class = "drp"
+size = "75% 60%"
+
+
+[scratchpads.ranger]
+animation = "fromTop"
+command = "kitty2 --class alacritty-dropdown -T alacritty-dropdown -e /usr/bin/zsh -c "ranger""
+class = "ranger"
+size = "25% 25%"
+

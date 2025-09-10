@@ -1,0 +1,196 @@
+# BACKGROUND
+background {
+    monitor =
+    path = ~/Pictures/wallpapers/Forest-Dark.png
+    blur_passes = 1
+    contrast = 0.8916
+    brightness = 0.8172
+    vibrancy = 0.1696
+    vibrancy_darkness = 0.0
+}
+
+# GENERAL
+#general {
+#    no_fade_in = false
+#    grace = 0
+#    disable_loading_bar = false
+#}
+
+
+# Day
+#label {
+#    monitor =
+#    text = cmd[update:1000] echo -e "$(date +"%A")"
+#    color = rgba(216, 222, 233, 0.70)
+#    font_size = 90
+#    font_family = Cascadia Code Nerd
+#    position = 0, 350
+#    halign = center
+#    valign = center
+#}
+
+# Date-Month
+#label {
+#    monitor =
+#    text = cmd[update:1000] echo -e "$(date +"%B %d %Y")"
+#    color = rgba(216, 222, 233, 0.70)
+#    font_size = 40
+#    font_family = Cascadia Code Nerd
+#    position = 0, 250
+#    halign = center
+#    valign = center
+#}
+
+# Time
+#label {
+#    monitor =
+#    text = cmd[update:1000] echo "<span>$(date +"%I:%M%p")</span>"
+#    color = rgba(216, 222, 233, 0.70)
+#    font_size = 20
+#    font_family = Cascadia Code Nerd
+#    position = 0, 190
+#    halign = center
+#    valign = center
+#}
+
+# Profie-Photo
+#image {
+#    monitor =
+#    path = /Storage/avatar.jpg
+#    border_size = 2
+#    border_color = rgba(255, 255, 255, .65)
+#    size = 125
+#    rounding = -1
+#    rotate = 0
+#    reload_time = -1
+#    reload_cmd = 
+ #   position = 0, 40
+ #   halign = center
+ #   valign = center
+#}
+
+# USER-BOX
+#shape {
+#    monitor =
+#    size = 300, 60
+#    color = rgba(255, 255, 255, .1)
+#    rounding = -1
+#    border_size = 0
+#    border_color = rgba(255, 255, 255, 0)
+#    rotate = 0
+#    xray = false # if true, make a "hole" in the background (rectangle of specified size, no rotation)
+#
+ #   position = 0, -130
+ #   halign = center
+ #   valign = center
+#}
+
+# USER
+#label {
+#    monitor =
+#    text =     $USER
+#    color = rgba(216, 222, 233, 0.80)
+#    outline_thickness = 2
+#    dots_size = 0.2 # Scale of input-field height, 0.2 - 0.8
+#    dots_spacing = 0.2 # Scale of dots' absolute size, 0.0 - 1.0
+#    dots_center = true
+#    font_size = 18
+#    font_family = Cascadia Code Nerd
+#    position = 0, -130
+#    halign = center
+#    valign = center
+#}
+
+# INPUT FIELD
+#input-field {
+#    monitor =
+#    size = 300, 60
+#    outline_thickness = 2
+#    dots_size = 0.2 # Scale of input-field height, 0.2 - 0.8
+#    dots_spacing = 0.2 # Scale of dots' absolute size, 0.0 - 1.0
+#    dots_center = true
+#    outer_color = rgba(255, 255, 255, 0)
+#    inner_color = rgba(255, 255, 255, 0.1)
+#    font_color = rgb(200, 200, 200)
+ #   fade_on_empty = false
+#    font_family = Cascadia Code Nerd
+#    placeholder_text = <i><span foreground="##ffffff99">🔒 Enter Pass</span></i>
+#    hide_input = false
+#    position = 0, -210
+#    halign = center
+#    valign = center
+#}
+
+# c(l)ock
+label {
+    monitor =
+    text = cmd[update:1000] echo "<span>$(date +"%I:%M%p")</span>"
+    color = rgba(227, 223, 255, .7)
+    font_size = 66
+    font_family = Google Sans Medium
+    position = 750, 350 
+    halign = left
+    valign = center
+}
+
+# day and month and years. (me and her literally.)
+label {
+    monitor =
+    text = cmd[update:1000] echo -e "$(date +"%A, %B %d")"
+    color = rgba(255, 255, 255, .8)
+    font_size = 12
+    font_family = Google Sans
+    position = 865, 400
+    halign = left
+    valign = center
+}
+
+# Label Essential Moment
+label {
+    monitor =
+    text = Hello $USER
+    text_align = center # center/right or any value for default left. multi-line text alignment inside label container
+    color = rgba(255, 255, 255, 1.0)
+    font_size = 12
+    font_family = Google Sans
+    rotate = 0 # degrees, counter-clockwise
+
+    position = 900, 420
+    halign = left
+    valign = center
+}
+
+# Input Text Here...
+input-field {
+    monitor =
+    size = 250, 55
+    outline_thickness = 0
+    dots_size = 0.2 # Scale of input-field height, 0.2 - 0.8
+    dots_spacing = 0.2 # Scale of dots' absolute size, 0.0 - 1.0
+    dots_center = true
+    outer_color = rgba(255, 255, 255, 0)
+    inner_color = rgba(255, 255, 255, 0.1)
+    font_color = rgb(200, 200, 200)
+    fade_on_empty = true
+    font_family = Google Sans
+    placeholder_text = <i><span foreground="##ffffff99">enter pass here, sweetheart...</span></i>
+    hide_input = false
+    position = 750, 25
+    halign = left
+    valign = center
+}
+
+
+# weather edit the scripts for locations
+# weather scripts are located in ~/.config/hypr/UserScripts Weather.sh and/or Weather.py
+# see https://github.com/JaKooLit/Hyprland-Dots/wiki/TIPS#%EF%B8%8F-weather-app-related-for-waybar-and-hyprlock
+label {
+    monitor =
+    text = cmd[update:3600000] [ -f ~/.cache/.weather_cache ] && cat  ~/.cache/.weather_cache
+    color = $color10
+    font_size = 24
+    font_family = JetBrains Mono Nerd Font 10
+    position = 50, 0
+    halign = left
+    valign = bottom
+}
